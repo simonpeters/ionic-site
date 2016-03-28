@@ -12,7 +12,7 @@ next_page_title: Adding Pages
 next_page_link: /docs/v2/getting-started/tutorial/adding-pages
 ---
 
-# Project Structure
+# Project Structuren
 
 <a class="improve-v2-docs" href='https://github.com/driftyco/ionic-site/edit/master/docs/v2/getting-started/tutorial/project-structure/index.md'>
   Improve this doc
@@ -77,7 +77,7 @@ Here's the main template for the app in `app/app.html`:
 
   <ion-content>
     <ion-list>
-      <button ion-item *ng-for="#p of pages" (click)="openPage(p)">
+      <button ion-item *ngFor="#p of pages" (click)="openPage(p)">
         {% raw %}{{p.title}}{% endraw %}
       </button>
     </ion-list>
